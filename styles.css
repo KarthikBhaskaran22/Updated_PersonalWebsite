@@ -1,0 +1,205 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #DBE2EF;
+  text-align: center;
+  margin: 0;
+}
+
+.myname {
+  font-size: 3.75rem;
+  margin: 0;
+}
+
+.web-dev {
+  font-size: 2.19rem;
+  margin: 0;
+}
+
+.and {
+  margin: 0;
+}
+
+.engineer {
+  font-size: 2.19rem;
+  margin: 0;
+}
+
+.passportphoto {
+  border-style: ridge;
+}
+
+.headinglevel-2 {
+  font-size: 2.19rem;
+  color: #298cc2;
+}
+
+.headinglevel-3 {
+  color: black;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+hr {
+  width: 50%;
+  margin: 75px auto;
+}
+
+a{
+  margin: 5px;
+}
+
+.heading {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  line-height: 1.4;
+  width: 60%;
+  margin: auto;
+  transition: transform .2s;
+}
+
+.linkedin:hover {
+  color: #298cc2;
+  text-decoration: none;
+}
+
+.github:hover {
+  color: #298cc2;
+  text-decoration: none;
+}
+
+.hackerrank:hover {
+  color: #298cc2;
+  text-decoration: none;
+}
+
+.profile:hover {
+  transform: scale(1.05);
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.bg_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 4s ease;
+  background-color: #22577E;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.skill-one {
+  width: 60%;
+  margin: auto;
+  transition: transform .2s;
+}
+
+.skill-one:hover {
+  transform: scale(1.05);
+}
+
+.skill-two {
+  width: 60%;
+  margin: auto;
+  transition: transform .2s;
+}
+
+.skill-two:hover {
+  transform: scale(1.05);
+}
+
+.projects {
+  width: 60%;
+  margin: auto;
+  transition: transform .2s;
+}
+
+.project1 {
+  margin: 0;
+}
+
+.project2 {
+  margin: 0;
+}
+
+.project3 {
+  margin: 0;
+}
+
+
+.projects:hover {
+  transform: scale(1.05);
+}
+
+.getintouch {
+  padding: 0.5%;
+}
+
+.button {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  font-family: 'Merriweather', serif;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #22577E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #298cc2;
+}
+
+.contact-link {
+  padding: 15px 0 20px;
+  background-color: #1B2430;
+  color: white;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 5px;
+  color: white;
+}
+
+.footer-link:hover {
+  color: #298cc2;
+}
+
+.copyright {
+  color: #298cc2;
+  font-size: 1rem;
+}
